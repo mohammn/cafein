@@ -1,0 +1,55 @@
+CRITICAL - 2022-01-20 11:25:58 --> Undefined property: App\Controllers\Menu::$userModel
+#0 C:\xampp\htdocs\cafein\app\Controllers\Menu.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 44, Array)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Menu->hapus()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-20 11:26:38 --> Undefined property: App\Controllers\Menu::$userModel
+#0 C:\xampp\htdocs\cafein\app\Controllers\Menu.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 44, Array)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Menu->hapus()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-20 11:26:59 --> Call to undefined method App\Models\MenuModel::upadate
+#0 C:\xampp\htdocs\cafein\app\Controllers\Menu.php(44): CodeIgniter\Model->__call('upadate', Array)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Menu->hapus()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-20 00:16:13 --> Undefined variable: totalTime
+#0 C:\xampp\htdocs\cafein\system\Debug\Toolbar\Views\toolbar.tpl.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 40, Array)
+#1 C:\xampp\htdocs\cafein\system\Debug\Toolbar.php(497): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cafein\system\Debug\Toolbar.php(460): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 C:\xampp\htdocs\cafein\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#4 C:\xampp\htdocs\cafein\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#5 C:\xampp\htdocs\cafein\system\CodeIgniter.php(300): CodeIgniter\Events\Events::trigger('pre_system')
+#6 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-20 01:37:06 --> Undefined offset: 5
+#0 C:\xampp\htdocs\cafein\app\Views\dashboard.php(107): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\cafein\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cafein\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cafein\system\Common.php(1097): CodeIgniter\View\View->render('dashboard', Array, true)
+#4 C:\xampp\htdocs\cafein\app\Controllers\Dashboard.php(25): view('dashboard', Array)
+#5 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#6 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-20 20:30:44 --> Undefined property: App\Controllers\Dashboard::$userModel
+#0 C:\xampp\htdocs\cafein\app\Controllers\Dashboard.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 20, Array)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-20 22:02:39 --> syntax error, unexpected 'NULL' (T_STRING), expecting ')'
+#0 C:\xampp\htdocs\cafein\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('menu')
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('menu')
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

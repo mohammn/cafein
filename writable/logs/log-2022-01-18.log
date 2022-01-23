@@ -1,0 +1,654 @@
+ERROR - 2022-01-18 10:27:06 --> Unknown column 'bayar' in 'where clause'
+CRITICAL - 2022-01-18 10:27:06 --> Unknown column 'bayar' in 'where clause'
+#0 C:\xampp\htdocs\cafein\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\cafein\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\cafein\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\cafein\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\cafein\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\cafein\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\cafein\app\Controllers\Antrian.php(23): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Antrian->index()
+#8 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#9 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-01-18 22:22:12 --> Unknown column 'bayar' in 'where clause'
+CRITICAL - 2022-01-18 22:22:13 --> Unknown column 'bayar' in 'where clause'
+#0 C:\xampp\htdocs\cafein\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\cafein\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\cafein\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\cafein\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\cafein\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\cafein\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\cafein\app\Controllers\Antrian.php(23): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Antrian->index()
+#8 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#9 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-01-18 10:27:00 --> Undefined property: App\Controllers\Laporan::$bayarModel
+#0 C:\xampp\htdocs\cafein\app\Controllers\Laporan.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->dataBayar()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-18 10:29:02 --> Undefined property: App\Controllers\Laporan::$bayarModel
+#0 C:\xampp\htdocs\cafein\app\Controllers\Laporan.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->dataBayar()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-18 10:29:36 --> Undefined property: App\Controllers\Laporan::$bayarModel
+#0 C:\xampp\htdocs\cafein\app\Controllers\Laporan.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->dataBayar()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-18 10:29:39 --> Undefined property: App\Controllers\Laporan::$bayarModel
+#0 C:\xampp\htdocs\cafein\app\Controllers\Laporan.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->dataBayar()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-18 10:30:04 --> Undefined property: App\Controllers\Laporan::$bayarModel
+#0 C:\xampp\htdocs\cafein\app\Controllers\Laporan.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->dataBayar()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-18 10:30:29 --> Undefined property: App\Controllers\Laporan::$bayarModel
+#0 C:\xampp\htdocs\cafein\app\Controllers\Laporan.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->dataBayar()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-18 10:30:30 --> Undefined property: App\Controllers\Laporan::$bayarModel
+#0 C:\xampp\htdocs\cafein\app\Controllers\Laporan.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->dataBayar()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-18 10:30:32 --> Undefined property: App\Controllers\Laporan::$bayarModel
+#0 C:\xampp\htdocs\cafein\app\Controllers\Laporan.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->dataBayar()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-18 10:30:32 --> Undefined property: App\Controllers\Laporan::$bayarModel
+#0 C:\xampp\htdocs\cafein\app\Controllers\Laporan.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->dataBayar()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-18 10:32:01 --> Undefined property: App\Controllers\Laporan::$bayarModel
+#0 C:\xampp\htdocs\cafein\app\Controllers\Laporan.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->dataBayar()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-18 10:32:03 --> Undefined property: App\Controllers\Laporan::$bayarModel
+#0 C:\xampp\htdocs\cafein\app\Controllers\Laporan.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->dataBayar()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-18 10:32:04 --> Undefined property: App\Controllers\Laporan::$bayarModel
+#0 C:\xampp\htdocs\cafein\app\Controllers\Laporan.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->dataBayar()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-18 10:32:39 --> Undefined property: App\Controllers\Laporan::$bayarModel
+#0 C:\xampp\htdocs\cafein\app\Controllers\Laporan.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->dataBayar()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-18 10:32:42 --> Undefined property: App\Controllers\Laporan::$bayarModel
+#0 C:\xampp\htdocs\cafein\app\Controllers\Laporan.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->dataBayar()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-18 10:33:15 --> Undefined property: App\Controllers\Laporan::$bayarModel
+#0 C:\xampp\htdocs\cafein\app\Controllers\Laporan.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->dataBayar()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-18 10:33:22 --> Undefined property: App\Controllers\Laporan::$bayarModel
+#0 C:\xampp\htdocs\cafein\app\Controllers\Laporan.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->dataBayar()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-18 10:34:09 --> Undefined property: App\Controllers\Laporan::$bayarModel
+#0 C:\xampp\htdocs\cafein\app\Controllers\Laporan.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->dataBayar()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-18 10:35:54 --> Undefined property: App\Controllers\Laporan::$bayarModel
+#0 C:\xampp\htdocs\cafein\app\Controllers\Laporan.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->dataBayar()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-18 10:38:06 --> Undefined property: App\Controllers\Laporan::$bayarModel
+#0 C:\xampp\htdocs\cafein\app\Controllers\Laporan.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->dataBayar()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-18 10:38:56 --> Undefined property: App\Controllers\Laporan::$bayarModel
+#0 C:\xampp\htdocs\cafein\app\Controllers\Laporan.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->dataBayar()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-18 10:39:28 --> Undefined property: App\Controllers\Laporan::$bayarModel
+#0 C:\xampp\htdocs\cafein\app\Controllers\Laporan.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->dataBayar()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-18 10:41:02 --> Undefined property: App\Controllers\Laporan::$bayarModel
+#0 C:\xampp\htdocs\cafein\app\Controllers\Laporan.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->dataBayar()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-18 10:42:32 --> Undefined property: App\Controllers\Laporan::$bayarModel
+#0 C:\xampp\htdocs\cafein\app\Controllers\Laporan.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->dataBayar()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-18 10:43:07 --> Undefined property: App\Controllers\Laporan::$bayarModel
+#0 C:\xampp\htdocs\cafein\app\Controllers\Laporan.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->dataBayar()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-18 10:44:14 --> Undefined property: App\Controllers\Laporan::$bayarModel
+#0 C:\xampp\htdocs\cafein\app\Controllers\Laporan.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->dataBayar()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-18 10:47:14 --> Undefined property: App\Controllers\Laporan::$bayarModel
+#0 C:\xampp\htdocs\cafein\app\Controllers\Laporan.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->dataBayar()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-18 10:47:18 --> Undefined property: App\Controllers\Laporan::$bayarModel
+#0 C:\xampp\htdocs\cafein\app\Controllers\Laporan.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->dataBayar()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-18 10:53:16 --> Undefined property: App\Controllers\Laporan::$bayarModel
+#0 C:\xampp\htdocs\cafein\app\Controllers\Laporan.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->dataBayar()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-18 10:54:29 --> Undefined property: App\Controllers\Laporan::$bayarModel
+#0 C:\xampp\htdocs\cafein\app\Controllers\Laporan.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->dataBayar()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-18 10:55:17 --> Undefined property: App\Controllers\Laporan::$bayarModel
+#0 C:\xampp\htdocs\cafein\app\Controllers\Laporan.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->dataBayar()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-18 10:57:33 --> Undefined property: App\Controllers\Laporan::$bayarModel
+#0 C:\xampp\htdocs\cafein\app\Controllers\Laporan.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->dataBayar()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-18 11:05:48 --> Undefined property: App\Controllers\Laporan::$bayarModel
+#0 C:\xampp\htdocs\cafein\app\Controllers\Laporan.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->dataBayar()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-18 11:06:15 --> Undefined property: App\Controllers\Laporan::$bayarModel
+#0 C:\xampp\htdocs\cafein\app\Controllers\Laporan.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->dataBayar()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-18 11:07:15 --> Undefined property: App\Controllers\Laporan::$bayarModel
+#0 C:\xampp\htdocs\cafein\app\Controllers\Laporan.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->dataBayar()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-18 11:07:17 --> Undefined property: App\Controllers\Laporan::$bayarModel
+#0 C:\xampp\htdocs\cafein\app\Controllers\Laporan.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->dataBayar()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-18 11:07:46 --> Undefined property: App\Controllers\Laporan::$bayarModel
+#0 C:\xampp\htdocs\cafein\app\Controllers\Laporan.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->dataBayar()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-18 11:08:50 --> Undefined property: App\Controllers\Laporan::$bayarModel
+#0 C:\xampp\htdocs\cafein\app\Controllers\Laporan.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->dataBayar()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-18 11:09:11 --> Undefined property: App\Controllers\Laporan::$bayarModel
+#0 C:\xampp\htdocs\cafein\app\Controllers\Laporan.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->dataBayar()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-18 11:09:44 --> Undefined property: App\Controllers\Laporan::$bayarModel
+#0 C:\xampp\htdocs\cafein\app\Controllers\Laporan.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->dataBayar()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-18 11:11:11 --> Undefined property: App\Controllers\Laporan::$bayarModel
+#0 C:\xampp\htdocs\cafein\app\Controllers\Laporan.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->dataBayar()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-18 11:11:38 --> Undefined property: App\Controllers\Laporan::$bayarModel
+#0 C:\xampp\htdocs\cafein\app\Controllers\Laporan.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->dataBayar()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-18 11:12:05 --> Undefined property: App\Controllers\Laporan::$bayarModel
+#0 C:\xampp\htdocs\cafein\app\Controllers\Laporan.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->dataBayar()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-18 19:54:01 --> Unknown column 'tanggal' in 'where clause'
+CRITICAL - 2022-01-18 19:54:01 --> Unknown column 'tanggal' in 'where clause'
+#0 C:\xampp\htdocs\cafein\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\cafein\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\cafein\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\cafein\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\cafein\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\cafein\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\cafein\app\Controllers\Laporan.php(29): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->dataTransaksi()
+#8 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#9 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-01-18 19:54:14 --> Unknown column 'tanggal' in 'where clause'
+CRITICAL - 2022-01-18 19:54:14 --> Unknown column 'tanggal' in 'where clause'
+#0 C:\xampp\htdocs\cafein\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\cafein\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\cafein\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\cafein\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\cafein\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\cafein\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\cafein\app\Controllers\Laporan.php(29): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->dataTransaksi()
+#8 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#9 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-01-18 19:55:39 --> Undefined property: App\Controllers\Laporan::$menuModel
+#0 C:\xampp\htdocs\cafein\app\Controllers\Laporan.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 31, Array)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->dataTransaksi()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-18 19:57:52 --> Undefined property: App\Controllers\Laporan::$menuModel
+#0 C:\xampp\htdocs\cafein\app\Controllers\Laporan.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 31, Array)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->dataTransaksi()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-18 20:00:19 --> Undefined index: idMenu
+#0 C:\xampp\htdocs\cafein\app\Controllers\Laporan.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->dataTransaksi()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-18 20:03:57 --> Undefined variable: pesanan
+#0 C:\xampp\htdocs\cafein\app\Controllers\Laporan.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 43, Array)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->dataTransaksi()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-18 20:04:02 --> Undefined variable: pesanan
+#0 C:\xampp\htdocs\cafein\app\Controllers\Laporan.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 43, Array)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->dataTransaksi()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-18 20:04:12 --> Undefined variable: pesanan
+#0 C:\xampp\htdocs\cafein\app\Controllers\Laporan.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 43, Array)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->dataTransaksi()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-18 20:04:17 --> Undefined variable: pesanan
+#0 C:\xampp\htdocs\cafein\app\Controllers\Laporan.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 43, Array)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->dataTransaksi()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-18 20:04:19 --> Undefined variable: pesanan
+#0 C:\xampp\htdocs\cafein\app\Controllers\Laporan.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 43, Array)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->dataTransaksi()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-18 20:04:28 --> Undefined variable: pesanan
+#0 C:\xampp\htdocs\cafein\app\Controllers\Laporan.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 43, Array)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->dataTransaksi()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-18 20:04:32 --> Undefined index: id
+#0 C:\xampp\htdocs\cafein\app\Controllers\Laporan.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 35, Array)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->dataTransaksi()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-18 20:08:35 --> Undefined index: id
+#0 C:\xampp\htdocs\cafein\app\Controllers\Laporan.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 35, Array)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->dataTransaksi()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-18 20:09:44 --> Undefined index: id
+#0 C:\xampp\htdocs\cafein\app\Controllers\Laporan.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 35, Array)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->dataTransaksi()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-18 20:09:53 --> Undefined index: id
+#0 C:\xampp\htdocs\cafein\app\Controllers\Laporan.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 35, Array)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->dataTransaksi()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-18 20:10:56 --> Undefined index: id
+#0 C:\xampp\htdocs\cafein\app\Controllers\Laporan.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 36, Array)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->dataTransaksi()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-18 20:10:57 --> Undefined index: id
+#0 C:\xampp\htdocs\cafein\app\Controllers\Laporan.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 36, Array)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->dataTransaksi()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-18 20:11:40 --> Cannot use object of type App\Models\TransaksiModel as array
+#0 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->dataTransaksi()
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-18 20:11:41 --> Cannot use object of type App\Models\TransaksiModel as array
+#0 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->dataTransaksi()
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-18 20:11:42 --> Cannot use object of type App\Models\TransaksiModel as array
+#0 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->dataTransaksi()
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-18 20:11:42 --> Cannot use object of type App\Models\TransaksiModel as array
+#0 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->dataTransaksi()
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-18 20:11:43 --> Cannot use object of type App\Models\TransaksiModel as array
+#0 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->dataTransaksi()
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-18 20:11:43 --> Cannot use object of type App\Models\TransaksiModel as array
+#0 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->dataTransaksi()
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-18 20:11:43 --> Cannot use object of type App\Models\TransaksiModel as array
+#0 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->dataTransaksi()
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-18 20:11:44 --> Cannot use object of type App\Models\TransaksiModel as array
+#0 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->dataTransaksi()
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-18 20:11:44 --> Cannot use object of type App\Models\TransaksiModel as array
+#0 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->dataTransaksi()
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-18 20:12:31 --> Cannot use object of type App\Models\TransaksiModel as array
+#0 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->dataTransaksi()
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-18 20:12:33 --> Cannot use object of type App\Models\TransaksiModel as array
+#0 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->dataTransaksi()
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-01-18 20:14:20 --> Illegal parameter data types int and row for operation '='
+CRITICAL - 2022-01-18 20:14:20 --> Illegal parameter data types int and row for operation '='
+#0 C:\xampp\htdocs\cafein\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\cafein\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\cafein\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\cafein\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\cafein\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\cafein\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\cafein\app\Controllers\Laporan.php(41): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->dataTransaksi()
+#8 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#9 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-01-18 20:14:22 --> Illegal parameter data types int and row for operation '='
+CRITICAL - 2022-01-18 20:14:22 --> Illegal parameter data types int and row for operation '='
+#0 C:\xampp\htdocs\cafein\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\cafein\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\cafein\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\cafein\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\cafein\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\cafein\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\cafein\app\Controllers\Laporan.php(41): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->dataTransaksi()
+#8 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#9 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-01-18 20:14:54 --> Illegal parameter data types int and row for operation '='
+CRITICAL - 2022-01-18 20:14:54 --> Illegal parameter data types int and row for operation '='
+#0 C:\xampp\htdocs\cafein\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\cafein\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\cafein\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\cafein\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\cafein\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\cafein\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\cafein\app\Controllers\Laporan.php(41): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->dataTransaksi()
+#8 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#9 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-01-18 20:14:55 --> Illegal parameter data types int and row for operation '='
+CRITICAL - 2022-01-18 20:14:55 --> Illegal parameter data types int and row for operation '='
+#0 C:\xampp\htdocs\cafein\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\cafein\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\cafein\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\cafein\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\cafein\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\cafein\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\cafein\app\Controllers\Laporan.php(41): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->dataTransaksi()
+#8 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#9 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-01-18 20:14:56 --> Illegal parameter data types int and row for operation '='
+CRITICAL - 2022-01-18 20:14:56 --> Illegal parameter data types int and row for operation '='
+#0 C:\xampp\htdocs\cafein\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\cafein\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\cafein\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\cafein\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\cafein\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\cafein\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\cafein\app\Controllers\Laporan.php(41): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->dataTransaksi()
+#8 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#9 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-01-18 20:15:58 --> Undefined index: idMenu
+#0 C:\xampp\htdocs\cafein\app\Controllers\Laporan.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 47, Array)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->dataTransaksi()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-18 20:17:08 --> Undefined offset: 2
+#0 C:\xampp\htdocs\cafein\app\Controllers\Laporan.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 47, Array)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->dataTransaksi()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-18 20:17:09 --> Undefined offset: 2
+#0 C:\xampp\htdocs\cafein\app\Controllers\Laporan.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 47, Array)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->dataTransaksi()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-18 20:17:11 --> Undefined offset: 2
+#0 C:\xampp\htdocs\cafein\app\Controllers\Laporan.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 47, Array)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->dataTransaksi()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-18 20:17:11 --> Undefined offset: 2
+#0 C:\xampp\htdocs\cafein\app\Controllers\Laporan.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 47, Array)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->dataTransaksi()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-18 20:19:03 --> Undefined offset: 2
+#0 C:\xampp\htdocs\cafein\app\Controllers\Laporan.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 48, Array)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->dataTransaksi()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-18 20:19:04 --> Undefined offset: 2
+#0 C:\xampp\htdocs\cafein\app\Controllers\Laporan.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 48, Array)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->dataTransaksi()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-18 20:19:05 --> Undefined offset: 2
+#0 C:\xampp\htdocs\cafein\app\Controllers\Laporan.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 48, Array)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->dataTransaksi()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-18 20:19:05 --> Undefined offset: 2
+#0 C:\xampp\htdocs\cafein\app\Controllers\Laporan.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 48, Array)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->dataTransaksi()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

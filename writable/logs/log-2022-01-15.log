@@ -1,0 +1,39 @@
+ERROR - 2022-01-15 11:47:26 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2022-01-15 11:47:26 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\cafein\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\cafein\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\cafein\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\cafein\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\cafein\app\Controllers\Menu.php(15): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Menu->index()
+#6 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#7 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-15 11:47:26 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp\htdocs\cafein\app\Views\errors\html\error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp\\htdocs...', 96, Array)
+#1 C:\xampp\htdocs\cafein\app\Views\errors\html\error_exception.php(96): print_r(Object(App\Controllers\Menu), true)
+#2 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(229): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\cafein\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2022-01-15 11:48:29 --> Table 'cafein.pesan' doesn't exist
+CRITICAL - 2022-01-15 11:48:29 --> Table 'cafein.pesan' doesn't exist
+#0 C:\xampp\htdocs\cafein\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\cafein\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\cafein\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\cafein\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\cafein\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\cafein\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\cafein\app\Controllers\Menu.php(15): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Menu->index()
+#8 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#9 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}

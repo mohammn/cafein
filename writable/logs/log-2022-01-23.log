@@ -1,0 +1,25 @@
+CRITICAL - 2022-01-23 00:54:37 --> Call to undefined method App\Models\MenuModel::firs
+#0 C:\xampp\htdocs\cafein\app\Controllers\Menu.php(60): CodeIgniter\Model->__call('firs', Array)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Menu->getMenu()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-23 05:28:21 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\cafein\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\cafein\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\cafein\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-01-23 05:28:28 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\cafein\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\cafein\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\cafein\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-01-23 05:30:16 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\cafein\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\cafein\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\cafein\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}

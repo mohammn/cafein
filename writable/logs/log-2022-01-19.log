@@ -1,0 +1,329 @@
+CRITICAL - 2022-01-19 01:53:43 --> Undefined offset: 0
+#0 C:\xampp\htdocs\cafein\app\Controllers\Laporan.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 48, Array)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->laporanMenu()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-19 01:56:05 --> Undefined index: jumlah
+#0 C:\xampp\htdocs\cafein\app\Controllers\Laporan.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 50, Array)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->laporanMenu()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-19 01:56:07 --> Undefined index: jumlah
+#0 C:\xampp\htdocs\cafein\app\Controllers\Laporan.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 50, Array)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->laporanMenu()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-19 01:56:07 --> Undefined index: jumlah
+#0 C:\xampp\htdocs\cafein\app\Controllers\Laporan.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 50, Array)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->laporanMenu()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-19 01:56:08 --> Undefined index: jumlah
+#0 C:\xampp\htdocs\cafein\app\Controllers\Laporan.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 50, Array)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->laporanMenu()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-19 01:56:08 --> Undefined index: jumlah
+#0 C:\xampp\htdocs\cafein\app\Controllers\Laporan.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 50, Array)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->laporanMenu()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-19 09:12:07 --> Undefined variable: totalTime
+#0 C:\xampp\htdocs\cafein\system\Debug\Toolbar\Views\toolbar.tpl.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 40, Array)
+#1 C:\xampp\htdocs\cafein\system\Debug\Toolbar.php(497): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cafein\system\Debug\Toolbar.php(460): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 C:\xampp\htdocs\cafein\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#4 C:\xampp\htdocs\cafein\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#5 C:\xampp\htdocs\cafein\system\CodeIgniter.php(300): CodeIgniter\Events\Events::trigger('pre_system')
+#6 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-19 11:11:24 --> Undefined index: idAntrian
+#0 C:\xampp\htdocs\cafein\app\Controllers\Laporan.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 87, Array)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->laporanAntrian()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-19 11:11:54 --> Undefined index: idAntrian
+#0 C:\xampp\htdocs\cafein\app\Controllers\Laporan.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 87, Array)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->laporanAntrian()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-19 11:13:28 --> Undefined index: idAntrian
+#0 C:\xampp\htdocs\cafein\app\Controllers\Laporan.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 87, Array)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->laporanAntrian()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-19 11:14:42 --> Undefined index: idAntrian
+#0 C:\xampp\htdocs\cafein\app\Controllers\Laporan.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 87, Array)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->laporanAntrian()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-19 11:14:43 --> Undefined index: idAntrian
+#0 C:\xampp\htdocs\cafein\app\Controllers\Laporan.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 87, Array)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->laporanAntrian()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-19 11:14:47 --> Undefined index: idAntrian
+#0 C:\xampp\htdocs\cafein\app\Controllers\Laporan.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 87, Array)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->laporanAntrian()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-19 11:14:49 --> Undefined index: idAntrian
+#0 C:\xampp\htdocs\cafein\app\Controllers\Laporan.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 87, Array)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->laporanAntrian()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-19 11:14:56 --> Undefined index: idAntrian
+#0 C:\xampp\htdocs\cafein\app\Controllers\Laporan.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 87, Array)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->laporanAntrian()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-19 11:15:09 --> Undefined index: idAntrian
+#0 C:\xampp\htdocs\cafein\app\Controllers\Laporan.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 87, Array)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->laporanAntrian()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-19 11:15:10 --> Undefined index: idAntrian
+#0 C:\xampp\htdocs\cafein\app\Controllers\Laporan.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 87, Array)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->laporanAntrian()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-19 11:15:27 --> Undefined index: IdAntrian
+#0 C:\xampp\htdocs\cafein\app\Controllers\Laporan.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 87, Array)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->laporanAntrian()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-19 11:15:29 --> Undefined index: IdAntrian
+#0 C:\xampp\htdocs\cafein\app\Controllers\Laporan.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 87, Array)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->laporanAntrian()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-19 11:15:29 --> Undefined index: IdAntrian
+#0 C:\xampp\htdocs\cafein\app\Controllers\Laporan.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 87, Array)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->laporanAntrian()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-19 11:15:29 --> Undefined index: IdAntrian
+#0 C:\xampp\htdocs\cafein\app\Controllers\Laporan.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 87, Array)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->laporanAntrian()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-19 11:15:30 --> Undefined index: IdAntrian
+#0 C:\xampp\htdocs\cafein\app\Controllers\Laporan.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 87, Array)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->laporanAntrian()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-19 11:15:30 --> Undefined index: IdAntrian
+#0 C:\xampp\htdocs\cafein\app\Controllers\Laporan.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 87, Array)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->laporanAntrian()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-19 11:15:30 --> Undefined index: IdAntrian
+#0 C:\xampp\htdocs\cafein\app\Controllers\Laporan.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 87, Array)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->laporanAntrian()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-19 11:15:40 --> Undefined index: idAntrian
+#0 C:\xampp\htdocs\cafein\app\Controllers\Laporan.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 87, Array)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->laporanAntrian()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-19 11:16:14 --> Undefined index: idAntrian
+#0 C:\xampp\htdocs\cafein\app\Controllers\Laporan.php(89): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 89, Array)
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Laporan->laporanAntrian()
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-19 11:16:25 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp\htdocs\cafein\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('laporan/laporan...')
+#1 C:\xampp\htdocs\cafein\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('laporan/laporan...')
+#2 C:\xampp\htdocs\cafein\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-19 21:18:26 --> Undefined variable: totalTime
+#0 C:\xampp\htdocs\cafein\system\Debug\Toolbar\Views\toolbar.tpl.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 40, Array)
+#1 C:\xampp\htdocs\cafein\system\Debug\Toolbar.php(497): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cafein\system\Debug\Toolbar.php(460): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 C:\xampp\htdocs\cafein\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#4 C:\xampp\htdocs\cafein\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#5 C:\xampp\htdocs\cafein\system\CodeIgniter.php(300): CodeIgniter\Events\Events::trigger('pre_system')
+#6 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-19 22:46:36 --> There is no data to update.
+#0 C:\xampp\htdocs\cafein\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\cafein\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\xampp\htdocs\cafein\app\Controllers\User.php(43): CodeIgniter\Model->update('4', Array)
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\User->hapus()
+#4 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-19 22:48:11 --> There is no data to update.
+#0 C:\xampp\htdocs\cafein\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\cafein\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\xampp\htdocs\cafein\app\Controllers\User.php(43): CodeIgniter\Model->update('4', Array)
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\User->hapus()
+#4 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-19 22:48:13 --> There is no data to update.
+#0 C:\xampp\htdocs\cafein\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\cafein\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\xampp\htdocs\cafein\app\Controllers\User.php(43): CodeIgniter\Model->update('4', Array)
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\User->hapus()
+#4 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-19 22:48:13 --> There is no data to update.
+#0 C:\xampp\htdocs\cafein\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\cafein\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\xampp\htdocs\cafein\app\Controllers\User.php(43): CodeIgniter\Model->update('4', Array)
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\User->hapus()
+#4 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-19 22:48:56 --> There is no data to update.
+#0 C:\xampp\htdocs\cafein\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\cafein\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\xampp\htdocs\cafein\app\Controllers\User.php(43): CodeIgniter\Model->update(3, Array)
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\User->hapus()
+#4 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-19 22:50:24 --> There is no data to update.
+#0 C:\xampp\htdocs\cafein\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\cafein\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\xampp\htdocs\cafein\app\Controllers\User.php(43): CodeIgniter\Model->update(3, Array)
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\User->hapus()
+#4 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-19 22:51:46 --> There is no data to update.
+#0 C:\xampp\htdocs\cafein\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\cafein\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\xampp\htdocs\cafein\app\Controllers\User.php(43): CodeIgniter\Model->update(4, Array)
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\User->hapus()
+#4 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-19 22:51:47 --> There is no data to update.
+#0 C:\xampp\htdocs\cafein\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\cafein\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\xampp\htdocs\cafein\app\Controllers\User.php(43): CodeIgniter\Model->update(4, Array)
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\User->hapus()
+#4 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-19 22:51:48 --> There is no data to update.
+#0 C:\xampp\htdocs\cafein\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\cafein\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\xampp\htdocs\cafein\app\Controllers\User.php(43): CodeIgniter\Model->update(4, Array)
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\User->hapus()
+#4 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-19 22:51:48 --> There is no data to update.
+#0 C:\xampp\htdocs\cafein\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\cafein\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\xampp\htdocs\cafein\app\Controllers\User.php(43): CodeIgniter\Model->update(4, Array)
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\User->hapus()
+#4 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-19 22:51:49 --> There is no data to update.
+#0 C:\xampp\htdocs\cafein\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\cafein\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\xampp\htdocs\cafein\app\Controllers\User.php(43): CodeIgniter\Model->update(4, Array)
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\User->hapus()
+#4 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-19 22:51:49 --> There is no data to update.
+#0 C:\xampp\htdocs\cafein\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\cafein\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\xampp\htdocs\cafein\app\Controllers\User.php(43): CodeIgniter\Model->update(4, Array)
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\User->hapus()
+#4 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-19 22:51:49 --> There is no data to update.
+#0 C:\xampp\htdocs\cafein\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\cafein\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\xampp\htdocs\cafein\app\Controllers\User.php(43): CodeIgniter\Model->update(4, Array)
+#3 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\User->hapus()
+#4 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-19 23:11:03 --> Undefined variable: url
+#0 C:\xampp\htdocs\cafein\app\Views\template.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 68, Array)
+#1 C:\xampp\htdocs\cafein\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cafein\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cafein\system\View\View.php(230): CodeIgniter\View\View->render('template', Array, true)
+#4 C:\xampp\htdocs\cafein\system\Common.php(1097): CodeIgniter\View\View->render('user', Array, true)
+#5 C:\xampp\htdocs\cafein\app\Controllers\User.php(18): view('user')
+#6 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\User->index()
+#7 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#8 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
